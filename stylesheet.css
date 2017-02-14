@@ -1,3 +1,4 @@
+
 main form aside {
   font-weight:bold;
 }
@@ -11,7 +12,7 @@ label.Side_radios {
   /*display:block;*/
 }
 
-label.labelblock, label.levitatelabel {
+.labelblock, .levitatelabel, .originstory_label{
   display:block;
 }
 
