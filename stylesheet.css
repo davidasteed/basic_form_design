@@ -1,5 +1,23 @@
+main form aside {
+  font-weight:bold;
+}
+
+label {
+  font-weight:bold;
+}
+
+label.Side_radios {
+  font-weight: normal;
+  /*display:block;*/
+}
+
+label.labelblock, label.levitatelabel {
+  display:block;
+}
+
 main form fieldset {
   display:inline-block;
+  vertical-align: top;
   width:30%;
 }
 
@@ -7,15 +25,29 @@ main form:first-child {
   padding-left: 50px;
 }
 
+.fullname_Input, .profile_Pic, .email {
+  width:100%;
+}
+
+.levitate {
+  width: 12%;
+}
+
+/*.radio_width {
+  width:100%;
+}*/
+
+
 /*main form: {
   padding-top:20px;
 }*/
 
-/*
-#fullname_Input, #profile_Pic, #email{
-  width:100%;
-}*/
+
 /*
 main + form + fieldset + {
   width: 100%;
+}*/
+
+/*main form fieldset > input {
+  width:100%;
 }*/
