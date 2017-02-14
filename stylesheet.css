@@ -1,0 +1,21 @@
+main form fieldset {
+  display:inline-block;
+  width:30%;
+}
+
+main form:first-child {
+  padding-left: 50px;
+}
+
+/*main form: {
+  padding-top:20px;
+}*/
+
+/*
+#fullname_Input, #profile_Pic, #email{
+  width:100%;
+}*/
+/*
+main + form + fieldset + {
+  width: 100%;
+}*/
