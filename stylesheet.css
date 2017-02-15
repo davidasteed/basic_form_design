@@ -35,6 +35,7 @@ main form {
 
 #originstory, #darksidestory {
     height: 75px;
+    border-radius: 5px;
 }
 
 .submitreset_buttons {
