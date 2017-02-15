@@ -7,12 +7,11 @@ label {
   font-weight:bold;
 }
 
-label.Side_radios {
+.Side_radios, .checkbox_items {
   font-weight: normal;
-  /*display:block;*/
 }
 
-.labelblock, .levitatelabel, .originstory_label{
+.display_Block {
   display:block;
 }
 
@@ -22,11 +21,11 @@ main form fieldset {
   width:30%;
 }
 
-main form:first-child {
+main form {
   padding-left: 50px;
 }
 
-.fullname_Input, .profile_Pic, .email {
+.full_Width {
   width:100%;
 }
 
@@ -34,21 +33,10 @@ main form:first-child {
   width: 12%;
 }
 
-/*.radio_width {
-  width:100%;
-}*/
+#originstory, #darksidestory {
+    height: 75px;
+}
 
-
-/*main form: {
-  padding-top:20px;
-}*/
-
-
-/*
-main + form + fieldset + {
-  width: 100%;
-}*/
-
-/*main form fieldset > input {
-  width:100%;
-}*/
+.submitreset_buttons {
+  background-color: rgb(157, 199, 241);
+}
