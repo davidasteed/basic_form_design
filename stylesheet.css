@@ -1,95 +1,54 @@
-body {
-  margin: 0;
-  font-size: .85em;
-}
 
-header img {
-  width: 100%;
-  display: block;
-}
-
-header h1 {
-  margin: 0;
-  padding-top: .5em;
-  padding-bottom: 1em;
-  background-color: rgb(221, 231, 241);
-  text-align:center;
-  font-family: serif;
+main form aside {
   font-weight:bold;
-  letter-spacing: 5px;
-  font-size: 28px;
-  font-variant: small-caps;
-  font-style: italic;
 }
 
-nav {
-  font-family: Serif;
-  padding: .02px;
-  background-color: rgb(249, 232, 204);
-}
-nav a:link {
-  color: rgb(0, 0, 0);
-  padding: 12px;
-  font-weight: 475;
+label {
+  font-weight:bold;
 }
 
-/*nav:nth-child(1) {
-  padding-left: 6px;
-}*/
-
-section{
-  padding-left: 30px;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  display: inline;
-}
-
-table {
-  border-collapse: collapse;
-  border: solid lightgrey;
-}
-
-thead {
-  border-bottom: solid lightgrey;
-}
-
-th {
-  font-weight: bold;
-}
-
-td {
+.Side_radios, .checkbox_items {
   font-weight: normal;
 }
 
-
-
-
-/*tr {
-  border-style: solid;
-  border-width: thin;
-}*/
-
-tbody tr:nth-child(even) {
-  background-color: rgb(146, 132, 189);
+.label_sizing {
+  display:block;
 }
 
-a:hover, td:hover {
-  background-color: rgb(221, 165, 65);
+.story_sizing {
+  min-width: 100%;
+
 }
 
-.flavor.active {
-  /* TODO make highlight persist using javascript */
-  background-color: rgb(221, 165, 65);
+.heading_tier2 {
+  box-sizing: border-box;
+  font-size: 1em;
+  margin-bottom: 0;
 }
 
-footer p {
-  border-top: solid grey;
-  padding-top: 1em;
-  text-align: right;
-  font-weight: lighter;
+main form fieldset {
+  display:inline-block;
+  vertical-align: top;
+  width:30%;
+}
+
+main form {
+  padding-left: 50px;
+}
+
+.full_Width {
+  width:100%;
+}
+
+.levitate {
+  width: 12%;
+}
+
+#originstory, #darksidestory {
+    height: 75px;
+    border-radius: 5px;
+}
+
+.submitreset_buttons {
+  background-color: rgb(157, 199, 241);
 }
