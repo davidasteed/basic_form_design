@@ -45,10 +45,16 @@ main form {
 }
 
 #originstory, #darksidestory {
-    height: 75px;
-    border-radius: 5px;
+  height: 75px;
+  border-radius: 5px;
 }
 
 .submitreset_buttons {
   background-color: rgb(157, 199, 241);
+}
+
+input:focus, textarea:focus {
+  /*border: 5px solid rgb(198, 223, 180);*/
+  /*outline: none;*/
+  outline-color: rgb(198, 233, 180);
 }
